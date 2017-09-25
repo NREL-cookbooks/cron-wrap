@@ -7,9 +7,11 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe "python::pip"
+python_runtime "2" do
+  provider :system
+end
 
-python_pip "cron-wrap" do
+python_package "cron-wrap" do
   action :install
   version node[:cron_wrap][:version]
 end

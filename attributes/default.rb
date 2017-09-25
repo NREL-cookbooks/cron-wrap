@@ -7,4 +7,4 @@
 # All rights reserved - Do Not Redistribute
 #
 
-default[:cron_wrap][:version] = "0.6.2"
+default[:cron_wrap][:version] = "0.6.3"
